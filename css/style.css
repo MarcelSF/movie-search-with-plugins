@@ -1,0 +1,29 @@
+#results li {
+  cursor: grab;
+}
+
+#results li:active {
+  cursor: grabbing;
+}
+
+#results li.ghost {
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+#preview, #editor {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+#preview {
+  min-height: 100px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px 12px;
+  text-align: left;
+}
+
+#preview img {
+  max-width: 100%;
+}
